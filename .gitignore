@@ -1,0 +1,22 @@
+# OSX #
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node #
+node_modules
+
+# Logs #
+logs
+*.log
+npm-debug.log*
+
+# VS #
+*.vsix
+
+# Misc #
+.history/
+
+personal-access-token.txt
+code-samples/colors.scss
+.vscode/settings.json

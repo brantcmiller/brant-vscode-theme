@@ -1,0 +1,43 @@
+{
+  "name": "brant-vscode-theme",
+  "displayName": "Brant's Theme",
+  "description": "My Theme",
+  "version": "1.0.0",
+  "publisher": "Brant",
+  "author": {
+    "name": "Brant"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [
+    "theme",
+    "vscode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brantcmiller/brant-vscode-theme"
+  },
+  "homepage": "https://github.com/brantcmiller/brant-vscode-theme",
+  "bugs": {
+    "url": "https://github.com/brantcmiller/brant-vscode-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.53.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Brant Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/brant-theme.json"
+      }
+    ]
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "dark"
+  }
+}
